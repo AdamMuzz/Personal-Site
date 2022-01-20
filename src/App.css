@@ -4,3 +4,35 @@
   flex-direction: column;
   color: white;
 }
+
+#home {
+  background-color: #fa7268;
+  height: 100vh;
+}
+#about {
+  background-color: #282828;
+  height: 500px;
+}
+#projects {
+  background-color: #1e1e1e;
+  height: 500px;
+}
+#activities {
+  background-color: #141414;
+  height: 500px;
+}
+#contact {
+  background-color: #0a0a0a;
+  height: 500px;
+}
+
+.spacer {
+  aspect-ratio: 900/150;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.layer1 {
+  background-image: url('./images/H--A\ break.svg');
+}

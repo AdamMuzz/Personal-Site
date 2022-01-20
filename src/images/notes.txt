@@ -1,0 +1,6 @@
+HAIKEI
+	-https://app.haikei.app/
+	-SVG curve tool
+	-use 900x350 aspect ratio for designing breaks
+INKSCAPE
+	-reduce 900x350 --> 900x150
