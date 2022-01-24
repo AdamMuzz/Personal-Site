@@ -33,6 +33,16 @@
   background-position: center;
   background-size: cover;
 }
-.layer1 {
+.break1 {
   background-image: url('./images/H--A\ break.svg');
+}
+
+#NavBar {
+  background-color: rgba(255, 255, 255, 0.3);
+	backdrop-filter: blur(10px);
+
+	position: fixed;
+	width: 100%;
+	height: 50px;
+	top: 0px;
 }

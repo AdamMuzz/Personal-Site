@@ -1,13 +1,23 @@
+//MAIN PAGE
+/*
+	react component that represents the overall website
+ */
+
 import './App.css';
+
+import Header from './Header';
 
 function App() {
 	return (
-		<div className="App">
+		<div className='App'>
+			<Header />
+			{/*<div id='NavBar'>Test</div>*/}
+
 			<div id='home'>
 				<p>Home</p>
 			</div>
 
-			<div className='spacer layer1' />
+			<div className='spacer break1' />
 
 			<div id='about'>
 				<p>About</p>
