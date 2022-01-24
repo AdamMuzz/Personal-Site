@@ -11,7 +11,6 @@ function App() {
 	return (
 		<div className='App'>
 			<Header />
-			{/*<div id='NavBar'>Test</div>*/}
 
 			<div id='home'>
 				<p>Home</p>

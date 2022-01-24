@@ -7,7 +7,13 @@ import './Header.css';
 
 function NavBar() {
 	return (
-		<div id='NavBar'>Test</div>
+		<div id='NavBar'>
+			<button>HOME</button>
+			<button>ABOUT</button>
+			<button>PROJECTS</button>
+			<button>ACTIVITES</button>
+			<button>CONTACT</button>
+		</div>
 	);
 }
 
