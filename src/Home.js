@@ -1,8 +1,8 @@
 //LANDING SECTION
 
-import './Landing.css';
+import './styles/Home.css';
 
-function LandingSection() {
+function HomeSection() {
 	return (
 		<div id='BG'>
 			<h1>Adam Muzzarelli</h1>
@@ -14,4 +14,4 @@ function LandingSection() {
 	);
 }
 
-export default LandingSection;
+export default HomeSection;

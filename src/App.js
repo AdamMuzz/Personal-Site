@@ -3,15 +3,15 @@
 	react component that represents the overall website
  */
 
-import './App.css';
+import './styles/App.css';
 import Header from './Header';
-import LandingSection from './Landing';
+import HomeSection from './Home';
 
 function App() {
 	return (
 		<div className='App'>
 			<Header />
-			<LandingSection />
+			<HomeSection />
 
 			<div className='spacer break1' />
 

@@ -4,7 +4,7 @@
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
-	background-image: url('./images/blob-lander.svg');
+	background-image: url('../images/blob-lander.svg');
 
 	display: flex;
 	flex-direction: column;
