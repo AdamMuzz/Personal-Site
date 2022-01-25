@@ -1,0 +1,13 @@
+#BG {
+	aspect-ratio: 16/9;
+	height: 100vh;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-image: url('./images/blob-lander.svg');
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}

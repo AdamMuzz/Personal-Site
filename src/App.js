@@ -4,17 +4,14 @@
  */
 
 import './App.css';
-
 import Header from './Header';
+import LandingSection from './Landing';
 
 function App() {
 	return (
 		<div className='App'>
 			<Header />
-
-			<div id='home'>
-				<p>Home</p>
-			</div>
+			<LandingSection />
 
 			<div className='spacer break1' />
 
