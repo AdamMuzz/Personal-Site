@@ -3,10 +3,33 @@
 	backdrop-filter: blur(8px);
 	display: flex;
 	justify-content: center;
-	align-items: center;
   
 	position: fixed;
 	width: 100%;
 	height: 50px;
 	top: 0px;
+}
+
+.Btn {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding-left: 20px;
+	padding-right: 20px;
+	cursor: pointer;
+}
+.Btn p {
+	font-weight: bold;
+	margin: 0;
+}
+.Btn:hover .underline {
+	width: 100%;
+}
+.underline {
+	margin: 0;
+	background-color: white;
+	height: 2.5px;
+	border-width: 0;
+	width: 0;
+	transition: width 0.3s;
 }
