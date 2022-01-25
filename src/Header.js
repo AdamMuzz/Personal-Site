@@ -1,7 +1,4 @@
-//HEADER
-/*
-	Navigation Bar component
- */
+//NAVIGATION BAR
 
 import './Header.css';
 

@@ -38,8 +38,6 @@ function App() {
 }
 
 /*
-	idea is to have transparent nav bar @ top
-		make it a sticky element in App
 	each 'section' is its own component
 	need a way to link nav bar to put sections in view
 
