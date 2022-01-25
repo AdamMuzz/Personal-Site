@@ -2,6 +2,8 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+The latest official build of my site can be found at https://adammuzz.github.io/Personal-Site/
+
 ## About this repo
 
 This repo contains the source code and build for my personal site<br>
