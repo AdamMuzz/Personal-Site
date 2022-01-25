@@ -26,13 +26,4 @@ function NavBtn(props) {
 	);
 }
 
-/*function NavBtn(props) {
-	return (
-		<div className='NavBtn'>
-			<button>{props.name}</button>
-			<hr className='underline' />
-		</div>
-	);
-}*/
-
 export default NavBar;
