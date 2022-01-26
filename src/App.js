@@ -6,18 +6,17 @@
 import './styles/App.css';
 import Header from './Header';
 import HomeSection from './Home';
+import AboutSection from './About';
 
 function App() {
 	return (
 		<div className='App'>
 			<Header />
-			<HomeSection />
 
+			<HomeSection />
 			<div className='spacer break1' />
 
-			<div id='about'>
-				<p>About</p>
-			</div>
+			<AboutSection />
 
 			<div id='projects'>
 				<p>Projects</p>

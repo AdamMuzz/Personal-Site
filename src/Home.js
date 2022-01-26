@@ -7,7 +7,7 @@ import mail_logo from './images/mail-64px.png';
 
 function HomeSection() {
 	return (
-		<div id='BG'>
+		<div id='Home-BG'>
 
 			<h1 id='title'>Adam Muzzarelli</h1>
 			<p id='details'>Computer Scientist | Investor | Founder</p>
