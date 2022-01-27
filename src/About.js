@@ -62,7 +62,9 @@ function AboutSection() {
 				</div>
 			</div>
 
+			<a id='resume-download' href='%PUBLIC_URL%/test-img.png' download>
 			<button id='resume-btn'>Download Resume</button>
+			</a>
 
 		</div>
 	);
