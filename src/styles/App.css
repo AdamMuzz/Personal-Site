@@ -5,6 +5,10 @@
   color: white;
 }
 
+.section-title {
+  color: #FA7268;
+}
+
 #projects {
   background-color: #1e1e1e;
   height: 500px;
