@@ -6,16 +6,36 @@
 }
 
 #bio {
-	width: 60%;
-	line-height: 1.5;
+	width: 70%;
 	display: flex;
 	align-items: center;
 }
 #headshot {
-	width: 250px;
-	height: 250px;
+	width: 20%;
+	height: 20%;
 	display: block;
 	border-radius: 50%;
 	border: #C62368 2px solid;
-	margin-right: 25px;
+	margin-right: 5%;
+}
+
+#profile-skills {
+	width: 70%;
+	margin-top: 25px;
+	display: flex;
+	justify-content: space-between;
+}
+.ps-wrapper {
+	width: 48%;
+}
+.subheader {
+	color: #C62368;
+	font-size: 25pt;
+}
+.subheader2 {
+	color: #111;
+	font-size: 17pt;
+	font-weight: bold;
+	margin-top: 10pt;
+	margin-bottom: 0;
 }

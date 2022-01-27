@@ -7,6 +7,20 @@
 
 .section-title {
   color: #FA7268;
+  font-size: 35pt;
+}
+.section-text {
+  line-height: 1.5;
+  margin-top: 0;
+  margin-bottom: 5pt;
+  color: #eaeaea;
+}
+.section-text a {
+  color: #FA7268;
+  margin: 0;
+}
+.section-text a:hover {
+  color: #DB544B;
 }
 
 #projects {
