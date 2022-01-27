@@ -53,7 +53,7 @@
 	background-color: #FA7268;
 }
 .empty {
-	background-color: #666;
+	background-color: #666666;
 }
 
 #resume-btn {
@@ -68,4 +68,7 @@
 }
 #resume-btn:hover {
 	background-color: #DB544B;
+}
+#resume-btn:active {
+	background-color: #666666;
 }
