@@ -47,11 +47,37 @@ function AboutSection() {
 
 				<div className='ps-wrapper'>
 					<h2 className='subheader'>Skills</h2>
+
+					<p className='subheader2'>React/Javascript</p>
+					<SkillBar size={9}/>
+
+					<p className='subheader2'>C++/C</p>
+					<SkillBar size={8}/>
+
+					<p className='subheader2'>Python</p>
+					<SkillBar size={6}/>
+
+					<p className='subheader2'>HTML/CSS</p>
+					<SkillBar size={8}/>
 				</div>
 			</div>
 
-			<button>Download Resume</button>
+			<button id='resume-btn'>Download Resume</button>
 
+		</div>
+	);
+}
+
+function SkillBar(props) {
+	return (
+		<div className='skill'>
+			{[...Array(props.size)].map((value, index) => (
+				<div className='circle' key={index} />
+			))}
+
+			{[...Array(10 - props.size)].map((value, index) => (
+				<div className='circle empty' key={index*10} />
+			))}
 		</div>
 	);
 }
