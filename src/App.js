@@ -17,6 +17,7 @@ function App() {
 			<div className='spacer break1' />
 
 			<AboutSection />
+			<div className='spacer break2' />
 
 			<div id='projects'>
 				<p>Projects</p>
