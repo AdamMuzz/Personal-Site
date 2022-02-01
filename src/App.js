@@ -7,6 +7,7 @@ import './styles/App.css';
 import Header from './Header';
 import HomeSection from './Home';
 import AboutSection from './About';
+import ProjectsSection from './Projects';
 
 function App() {
 	return (
@@ -19,9 +20,7 @@ function App() {
 			<AboutSection />
 			<div className='spacer break2' />
 
-			<div id='projects'>
-				<p>Projects</p>
-			</div>
+			<ProjectsSection />
 
 			<div id='activities'>
 				<p>Activites</p>
