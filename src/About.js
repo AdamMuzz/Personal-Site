@@ -38,8 +38,8 @@ function AboutSection() {
 					<p className='subheader2'>Full Name:</p>
 					<p className='section-text'>Adam Muzzarelli</p>
 
-					<p className='subheader2'>Birth Date:</p>
-					<p className='section-text'>April 20, 2002</p>
+					<p className='subheader2'>School</p>
+					<p className='section-text'>University of California, Los Angeles</p>
 
 					<p className='subheader2'>Graduation:</p>
 					<p className='section-text'>June 2024</p>
