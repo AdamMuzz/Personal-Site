@@ -6,14 +6,13 @@
 }
 
 #projects-container {
-	background-color: orange;
 	display: flex;
 	flex-wrap: wrap;
 	width: 70%;
 }
 
 .project-card {
-	background-color: lightblue;
+	background-color: white;
 	width: 20%;
 	aspect-ratio: 1;
 	border-radius: 7.5%;
