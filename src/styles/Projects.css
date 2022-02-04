@@ -9,17 +9,22 @@
 	display: flex;
 	flex-wrap: wrap;
 	width: 70%;
+	justify-content: center;
+	margin-bottom: 5%;
 }
 
 .project-card {
 	background-color: white;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
 	width: 20%;
 	aspect-ratio: 1;
 	border-radius: 7.5%;
 	margin: 2.5%;
 }
 .project-card > .card-hover {
-	background-color: rgba(0, 0, 0, .66);
+	background-color: rgba(0, 0, 0, .75);
 	width: 100%;
 	height: 100%;
 	border-radius: 7.5%;

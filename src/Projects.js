@@ -1,15 +1,17 @@
 import './styles/Projects.css';
 
+import bartr_card from './images/bartr-card.png';
+import blockio_card from './images/blockio-card.png';
+
 function ProjectsSection() {
 	return (
 		<div id='Projects-BG'>
 			<h1 className='section-title'>My Projects</h1>
 
 			<div id='projects-container'>
-				<Project name={Bartr.name} description={Bartr.description} />
-				<Project name={ShooterIO.name} description={ShooterIO.description} />
-				<Project name={SelfSite.name} description={SelfSite.description} />
-				<Project/>
+				<Project {...Bartr} />
+				<Project {...BlockIO} />
+				<Project {...SelfSite} />
 			</div>
 		</div>
 	);
@@ -32,12 +34,12 @@ function Project(props) {
 const Bartr = {
 	name: 'Bartr',
 	description: 'trading app startup',
-	image: ''
+	image: bartr_card
 }
-const ShooterIO = {
-	name: 'ShooterIO',
+const BlockIO = {
+	name: 'Block.IO',
 	description: 'online game',
-	image: ''
+	image: blockio_card
 }
 const SelfSite = {
 	name: 'Personal Website',
