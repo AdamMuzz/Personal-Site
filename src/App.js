@@ -21,6 +21,7 @@ function App() {
 			<div className='spacer break2' />
 
 			<ProjectsSection />
+			<div className='spacer break3' />
 
 			<div id='activities'>
 				<p>Activites</p>

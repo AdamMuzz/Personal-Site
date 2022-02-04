@@ -2,6 +2,7 @@ import './styles/Projects.css';
 
 import bartr_card from './images/bartr-card.png';
 import blockio_card from './images/blockio-card.png';
+import site_card from './images/site-card.png';
 
 function ProjectsSection() {
 	return (
@@ -31,6 +32,8 @@ function Project(props) {
 	);
 }
 
+
+
 const Bartr = {
 	name: 'Bartr',
 	description: 'trading app startup',
@@ -44,7 +47,9 @@ const BlockIO = {
 const SelfSite = {
 	name: 'Personal Website',
 	description: 'web development',
-	image: ''
+	image: site_card
 }
+
+
 
 export default ProjectsSection;
