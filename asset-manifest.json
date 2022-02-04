@@ -1,19 +1,23 @@
 {
   "files": {
-    "main.css": "/Personal-Site/static/css/main.7850a6ac.css",
-    "main.js": "/Personal-Site/static/js/main.b83e05b2.js",
+    "main.css": "/Personal-Site/static/css/main.4e102bd9.css",
+    "main.js": "/Personal-Site/static/js/main.5f8ce40b.js",
     "static/js/787.949ba037.chunk.js": "/Personal-Site/static/js/787.949ba037.chunk.js",
     "static/media/headshot.jpeg": "/Personal-Site/static/media/headshot.15b35c5437b4ef259739.jpeg",
+    "static/media/site-card.png": "/Personal-Site/static/media/site-card.9fd0a99f3f216e9f0b4b.png",
+    "static/media/blockio-card.png": "/Personal-Site/static/media/blockio-card.1db40d67313b9e78ccf1.png",
+    "static/media/bartr-card.png": "/Personal-Site/static/media/bartr-card.aec16b679aa6084400f9.png",
     "static/media/H--A break.svg": "/Personal-Site/static/media/H--A break.9a41ddd484e99257402f.svg",
+    "static/media/P--A break.svg": "/Personal-Site/static/media/P--A break.dc9fe7571eb32c09c6d8.svg",
     "static/media/A--P break.svg": "/Personal-Site/static/media/A--P break.dbf0939a431786f2185a.svg",
     "static/media/blob-lander.svg": "/Personal-Site/static/media/blob-lander.6e67b74bc31d5bdd224e.svg",
     "index.html": "/Personal-Site/index.html",
-    "main.7850a6ac.css.map": "/Personal-Site/static/css/main.7850a6ac.css.map",
-    "main.b83e05b2.js.map": "/Personal-Site/static/js/main.b83e05b2.js.map",
+    "main.4e102bd9.css.map": "/Personal-Site/static/css/main.4e102bd9.css.map",
+    "main.5f8ce40b.js.map": "/Personal-Site/static/js/main.5f8ce40b.js.map",
     "787.949ba037.chunk.js.map": "/Personal-Site/static/js/787.949ba037.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7850a6ac.css",
-    "static/js/main.b83e05b2.js"
+    "static/css/main.4e102bd9.css",
+    "static/js/main.5f8ce40b.js"
   ]
 }
