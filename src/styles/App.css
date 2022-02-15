@@ -9,6 +9,10 @@
   color: #FA7268;
   font-size: 35pt;
 }
+.subheader {
+	color: #C62368;
+	font-size: 25pt;
+}
 .section-text {
   line-height: 1.5;
   margin-top: 0;
