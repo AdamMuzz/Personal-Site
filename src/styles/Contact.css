@@ -7,6 +7,31 @@
 
 #contact-options-container {
 	display: flex;
-	background-color: aqua;
-	margin: 2.5% 0 10% 0;
+	justify-content: center;
+	margin: 4% 0 10% 0;
+	width: 70%;
+}
+.contact-option {
+	width: 33%;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.contact-img {
+	width: 48px;
+	height: 48px;
+}
+.contact-text {
+	line-height: 0;
+	color: #eaeaea;
+}
+.contact-text a {
+	color: #eaeaea;
+	text-decoration: none;
+	margin: 0;
+}
+.contact-text a:hover {
+	color: #DB544B;
 }

@@ -1,8 +1,8 @@
 import './styles/Projects.css';
 
-import bartr_card from './images/bartr-card.png';
-import blockio_card from './images/blockio-card.png';
-import site_card from './images/site-card.png';
+import bartr_card from './images/card-bartr.png';
+import blockio_card from './images/card-blockio.png';
+import site_card from './images/card-site.png';
 
 function ProjectsSection() {
 	return (
