@@ -8,6 +8,7 @@ import Header from './Header';
 import HomeSection from './Home';
 import AboutSection from './About';
 import ProjectsSection from './Projects';
+import ContactSection from './Contact';
 
 function App() {
 	return (
@@ -27,9 +28,7 @@ function App() {
 				<p>Activites</p>
 			</div>
 
-			<div id='contact'>
-				<p>Contact</p>
-			</div>
+			<ContactSection />
 		</div>
 	);
 }
