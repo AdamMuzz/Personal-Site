@@ -42,7 +42,10 @@ function App() {
 		about
 		projects
 		activites
-		contact			
+		contact		
+		
+	TODO:
+		make all imgs 128px and fix that
  */
 
 export default App;
