@@ -7,20 +7,20 @@ import { useState } from 'react';
 
 function ProjectsSection() {
 	const [is_focused, set_focused] = useState(false);
-	const show_overlay = is_focused ? {display: 'block'} : {display: 'none'}
+
+	const open = () => {set_focused(true)}
+	const close = () => {set_focused(false)}
 
 	return (
 		<div id='Projects-BG'>
 			<h1 className='section-title'>My Projects</h1>
 
 			<div id='projects-container'>
-				<Project {...Bartr} focused={set_focused} />
-				<Project {...BlockIO} focused={set_focused} />
-				<Project {...SelfSite} focused={set_focused} />
-				{is_focused && <ExpandedProject />}
+				<Project {...Bartr} open={open} />
+				<Project {...BlockIO} open={open} />
+				<Project {...SelfSite} open={open} />
+				{is_focused && <ExpandedProject close={close} />}
 			</div>
-
-			<div id='overlay' style={show_overlay} onClick={()=>{set_focused(false)}} />
 		</div>
 	);
 }
@@ -28,12 +28,8 @@ function ProjectsSection() {
 function Project(props) {
 	const bg = {backgroundImage: `url(${props.image})`};
 
-	const handle_click = () => {
-		props.focused(true);
-	}
-
 	return (
-		<div className='project-card' style={bg} onClick={handle_click}>
+		<div className='project-card' style={bg} onClick={props.open}>
 			<div className='card-hover'>
 				<p id='card-name'>{props.name}</p>
 				<p id='card-description'>{props.description}</p>
@@ -45,8 +41,10 @@ function Project(props) {
 
 function ExpandedProject(props) {
 	return (
+		<div id='overlay' onClick={props.close}>
 		<div id='big-project-BG'>
 			<p>Test</p>
+		</div>
 		</div>
 	);
 }
