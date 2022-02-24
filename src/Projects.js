@@ -47,7 +47,7 @@ function ExpandedProject(props) {
 		else {set_focused(false);}
 	}, [props.focused]);
 
-	const close = () => {
+	const close = (e) => {
 		set_focused(false);
 		setTimeout(() => {
 			props.close();
@@ -58,8 +58,12 @@ function ExpandedProject(props) {
 
 	return (
 		<div id='overlay' onClick={close}>
-			<div id='big-project-BG' style={fade}>
-				<p>Test</p>
+			<div id='big-project-BG' style={fade} onClick={(e)=>{e.stopPropagation();}}>
+				<p>IMAGE</p>
+				<p>TITLE</p>
+				<p>DESCRIPTION</p>
+				<button>DETAILS</button>
+				<button>CLOSE</button>
 			</div>
 		</div>
 	);
