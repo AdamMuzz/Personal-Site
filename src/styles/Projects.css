@@ -60,6 +60,8 @@
 	aspect-ratio: 1/1;
 	background-color: aqua;
 	border-radius: 7.5%;
+	transition: opacity 0.25s ease-in;
+	opacity: 0;
 }
 #overlay {
 	position: fixed;

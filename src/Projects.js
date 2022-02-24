@@ -3,7 +3,7 @@ import './styles/Projects.css';
 import bartr_card from './images/card-bartr.png';
 import blockio_card from './images/card-blockio.png';
 import site_card from './images/card-site.png';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 
 function ProjectsSection() {
 	const [is_focused, set_focused] = useState(false);
@@ -19,7 +19,7 @@ function ProjectsSection() {
 				<Project {...Bartr} open={open} />
 				<Project {...BlockIO} open={open} />
 				<Project {...SelfSite} open={open} />
-				{is_focused && <ExpandedProject close={close} />}
+				{is_focused && <ExpandedProject focused={is_focused} close={close} />}
 			</div>
 		</div>
 	);
@@ -40,11 +40,27 @@ function Project(props) {
 }
 
 function ExpandedProject(props) {
+	const [focused, set_focused] = useState(false);
+
+	useEffect(() => {
+		if (props.focused) {set_focused(true);}
+		else {set_focused(false);}
+	}, [props.focused]);
+
+	const close = () => {
+		set_focused(false);
+		setTimeout(() => {
+			props.close();
+		}, 250);
+	}
+
+	const fade = focused ? {opacity: 1} : undefined;
+
 	return (
-		<div id='overlay' onClick={props.close}>
-		<div id='big-project-BG'>
-			<p>Test</p>
-		</div>
+		<div id='overlay' onClick={close}>
+			<div id='big-project-BG' style={fade}>
+				<p>Test</p>
+			</div>
 		</div>
 	);
 }
