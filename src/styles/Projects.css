@@ -39,12 +39,12 @@
 .project-card:hover > .card-hover {
 	opacity: 1;
 }
-#card-name {
+.card-name {
 	font-weight: bold;
-	margin: 5% 0 0 5%;
+	margin: 5% 5% 1.5% 5%;
 }
-#card-description {
-	margin: 0 0 0 5%;
+.card-description {
+	margin: 0 5% 0 5%;
 }
 #card-plus {
 	margin: 0;
@@ -55,14 +55,43 @@
 	transform: translate(-50%,-50%);
 }
 
-#big-project-BG {
+#big-card-BG {
 	height: 50vh;
+	min-height: 500px;
 	aspect-ratio: 1/1;
-	background-color: aqua;
+	background-color: #1E1E1E;
 	border-radius: 7.5%;
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+
 	transition: opacity 0.25s ease-in-out;
 	opacity: 0;
 }
+.big-card-component {
+	margin: 0;
+}
+#big-card-img {
+	height: 50%;
+	background-color: #FA7268;
+}
+#big-card-details {
+	height: 38%;
+}
+#big-card-btns {
+	height: 12%;
+	background-color: #0A0A0A;
+	display: flex;
+	align-items: center;
+}
+.big-card-btn {
+	margin: 0 0 0 5%;
+	cursor: pointer;
+}
+.big-card-btn:hover {
+	color: #DB544B;
+}
+
 #overlay {
 	position: fixed;
 	display: flex;

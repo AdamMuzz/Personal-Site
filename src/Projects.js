@@ -31,8 +31,8 @@ function Project(props) {
 	return (
 		<div className='project-card' style={bg} onClick={props.open}>
 			<div className='card-hover'>
-				<p id='card-name'>{props.name}</p>
-				<p id='card-description'>{props.description}</p>
+				<p className='card-name'>{props.name}</p>
+				<p className='card-description'>{props.description}</p>
 				<h1 id='card-plus'>+</h1>
 			</div>
 		</div>
@@ -47,7 +47,7 @@ function ExpandedProject(props) {
 		else {set_focused(false);}
 	}, [props.focused]);
 
-	const close = (e) => {
+	const close = () => {
 		set_focused(false);
 		setTimeout(() => {
 			props.close();
@@ -58,12 +58,16 @@ function ExpandedProject(props) {
 
 	return (
 		<div id='overlay' onClick={close}>
-			<div id='big-project-BG' style={fade} onClick={(e)=>{e.stopPropagation();}}>
-				<p>IMAGE</p>
-				<p>TITLE</p>
-				<p>DESCRIPTION</p>
-				<button>DETAILS</button>
-				<button>CLOSE</button>
+			<div id='big-card-BG' style={fade} onClick={(e)=>{e.stopPropagation();}}>
+				<div id='big-card-img'>IMAGE</div>
+				<div id='big-card-details'>
+					<p className='card-name'>TITLE</p>
+					<p className='card-description'>DESCRIPTION</p>
+				</div>
+				<div id='big-card-btns'>
+					<p className='big-card-btn'>DETAILS</p>
+					<p className='big-card-btn' onClick={close}>CLOSE</p>
+				</div>
 			</div>
 		</div>
 	);
