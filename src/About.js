@@ -11,7 +11,7 @@ function AboutSection() {
 				<img id='headshot' src={headshot} alt='HeadShot'/>
 				<div>
 					<p className='section-text'>
-						&emsp;I'm currently a 2nd year Computer Science major at UCLA, with plans to double major in Business Economics.
+						&emsp;I'm currently a 3rd year student at UCLA, double majoring in computer science and economics.
 						Within the realm of CS, I'm very interested in UI/UX design and AI fields.
 					</p>
 					<p className='section-text'>
