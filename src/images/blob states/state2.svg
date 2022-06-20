@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   id="visual"
+   viewBox="0 0 960 540"
+   width="960"
+   height="540"
+   version="1.1"
+   sodipodi:docname="blob-haikei.svg"
+   inkscape:version="1.2 (dc2aedaf03, 2022-05-15)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs11" />
+  <sodipodi:namedview
+     id="namedview9"
+     pagecolor="#505050"
+     bordercolor="#ffffff"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="1"
+     inkscape:deskcolor="#505050"
+     showgrid="false"
+     inkscape:zoom="1"
+     inkscape:cx="469.5"
+     inkscape:cy="336.5"
+     inkscape:current-layer="visual" />
+  <rect
+     x="0"
+     y="0"
+     width="960"
+     height="540"
+     fill="#FF0066"
+     id="rect2" />
+  <path
+     d="m 688.71035,208.69516 c 36.4865,45.81324 58.07156,118.15351 27.31762,149.64175 -30.79716,31.53248 -114.02932,22.20435 -183.52942,45.03948 -69.42208,22.8095 -125.09382,77.75721 -183.96167,82.0393 -58.78812,4.27629 -120.81323,-42.01165 -123.44796,-97.77286 -2.63862,-55.84339 54.11654,-121.02741 81.17481,-177.13226 27.05827,-56.10485 24.35193,-102.98081 45.90397,-130.018019 21.58562,-27.07936 70.33725,-35.61151 158.59248,8.13388 22.10083,10.9547 57.12523,34.458669 75.36581,44.470679 57.87402,31.76626 74.42781,40.24409 102.58436,75.59805 z"
+     fill="#bb004b"
+     id="path4"
+     sodipodi:nodetypes="ssssssssss"
+     style="stroke-width:0.864482" />
+</svg>
