@@ -7,17 +7,17 @@ import mail_logo from './images/mail-64px.png';
 
 function HomeSection() {
 	return (
-		<div id='Home-BG'>
+		<div id='HOME-BG'>
 
 			<h1 id='title'>Adam Muzzarelli</h1>
 			<p id='details'>Computer Scientist | Investor | Founder</p>
 			<p>*This site is currently a WIP</p>
 
 			<div id='glyph_container'>
-				<a href='https://github.com/AdamMuzz'>
+				<a href='https://github.com/AdamMuzz' target='_blank' rel='noreferrer'>
 					<img className='glyph' src={GitHub_logo} alt='GitHub' />
 				</a>
-				<a href='https://www.linkedin.com/in/adam-muzzarelli-89ab15134/'>
+				<a href='https://www.linkedin.com/in/adam-muzzarelli-89ab15134/' target='_blank' rel='noreferrer'>
 					<img className='glyph' src={LinkedIn_logo} alt='LinkedIn' />
 				</a>
 				<a href='mailto: admuzzarelli@gmail.com'>

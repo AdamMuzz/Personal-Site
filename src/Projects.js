@@ -12,7 +12,7 @@ function ProjectsSection() {
 	const close = () => {set_focused(false)}
 
 	return (
-		<div id='Projects-BG'>
+		<div id='PROJECTS-BG'>
 			<h1 className='section-title'>My Projects</h1>
 
 			<div id='projects-container'>

@@ -15,8 +15,15 @@ function NavBar() {
 }
 
 function NavBtn(props) {
+	const go_to = () => {
+		const el = document.getElementById(`${props.name}-BG`);
+		//el.scrollIntoView({behavior: 'smooth'});	//*scrolls too far down*
+		const el_top = el.offsetTop - 20;
+		window.scrollTo({behavior: 'smooth', top: el_top, left: 0});
+	}
+
 	return (
-		<div className='Btn'>
+		<div className='Btn' onClick={go_to}>
 			<p>{props.name}</p>
 			<hr className='underline' />
 		</div>

@@ -5,7 +5,7 @@ import linkedin from './images/LinkedIn-128px.png';
 
 function ContactSection() {
 	return (
-		<div id='Contact-BG'>
+		<div id='CONTACT-BG'>
 			<h1 className='section-title'>Contact Me</h1>
 
 			<div id='contact-options-container'>

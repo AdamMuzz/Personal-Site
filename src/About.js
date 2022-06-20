@@ -3,7 +3,7 @@ import headshot from './images/headshot.jpeg';
 
 function AboutSection() {
 	return (
-		<div id='About-BG'>
+		<div id='ABOUT-BG'>
 
 			<h1 className='section-title'>About Me</h1>
 			
