@@ -35,13 +35,13 @@ function AboutSection() {
 						If you think I'm a good fit, please contact me via <a href='mailto: admuzzarelli@gmail.com'>admuzzarelli@gmail.com</a>.
 					</p>
 
-					<p className='subheader2'>Full Name:</p>
+					<p className='subheader2'>Full Name</p>
 					<p className='section-text'>Adam Muzzarelli</p>
 
 					<p className='subheader2'>School</p>
 					<p className='section-text'>University of California, Los Angeles</p>
 
-					<p className='subheader2'>Graduation:</p>
+					<p className='subheader2'>Graduation</p>
 					<p className='section-text'>June 2024</p>
 				</div>
 
