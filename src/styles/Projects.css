@@ -9,7 +9,7 @@
 	display: flex;
 	flex-wrap: wrap;
 	width: 70%;
-	justify-content: center;
+	/*justify-content: center;*/
 	margin-bottom: 5%;
 }
 
@@ -72,11 +72,11 @@
 	margin: 0;
 }
 #big-card-img {
-	height: 50%;
+	height: 60%;
 	background-color: #FA7268;
 }
 #big-card-details {
-	height: 38%;
+	height: 28%;
 }
 #big-card-btns {
 	height: 12%;
@@ -88,7 +88,14 @@
 	margin: 0 0 0 5%;
 	cursor: pointer;
 }
+.big-card-btn a {
+	color: white;
+	text-decoration: none;
+}
 .big-card-btn:hover {
+	color: #DB544B;
+}
+.big-card-btn a:hover {
 	color: #DB544B;
 }
 
