@@ -76,7 +76,7 @@ function ExpandedProject(props) {
 	return (
 		<div id='overlay' onClick={close}>
 			<div id='big-card-BG' style={fade} onClick={(e)=>{e.stopPropagation();}}>
-				<div id='big-card-img'>IMAGE</div>
+				<img id='big-card-img' src={props.image} alt={props.name} />
 				<div id='big-card-details'>
 					<p className='card-name'>{props.name}</p>
 					<p className='card-description'>{props.long_description}</p>

@@ -73,7 +73,7 @@
 }
 #big-card-img {
 	height: 60%;
-	background-color: #FA7268;
+	object-fit: cover;
 }
 #big-card-details {
 	height: 28%;
