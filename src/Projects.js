@@ -108,7 +108,7 @@ const BlockIO = {
 const SelfSite = {
 	name: 'Personal Website',
 	description: 'web development',
-	long_description: 'This site you are currently viewing; a collection of my experiences and interests tied together as a UI/UX project.',
+	long_description: 'The site you are currently viewing; a collection of my experiences and interests tied together as a frontend project.',
 	image: site_card,
 	link: 'https://github.com/AdamMuzz/Personal-Site'
 }
