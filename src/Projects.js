@@ -113,7 +113,7 @@ const SelfSite = {
 	link: 'https://github.com/AdamMuzz/Personal-Site'
 }
 const DoSBoss = {
-	name: 'The DoS Boss',
+	name: 'The DoSS Boss',
 	description: 'cybersecurity for satellites',
 	long_description: 'My team\'s project for the 2022 Booz Allen Summer Games Internship. An ML embedded system for cubesats capable of detecting ping flood network attacks.',
 	image: cubesat_card,
