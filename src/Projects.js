@@ -4,6 +4,7 @@ import bartr_card from './images/card-bartr.png';
 import blockio_card from './images/card-blockio.png';
 import site_card from './images/card-site.png';
 import cubesat_card from './images/card-cubesat.jpg';
+import numguess_card from './images/card-numguess.jpg';
 import { useEffect, useState } from 'react';
 
 function ProjectsSection() {
@@ -19,6 +20,7 @@ function ProjectsSection() {
 			<h1 className='section-title'>My Projects</h1>
 
 			<div id='projects-container'>
+				<Project {...NumGuess} open={open} set_details={set_details} />
 				<Project {...DoSBoss} open={open} set_details={set_details} />
 				<Project {...Bartr} open={open} set_details={set_details} />
 				<Project {...BlockIO} open={open} set_details={set_details} />
@@ -119,7 +121,13 @@ const DoSBoss = {
 	image: cubesat_card,
 	link: 'https://www.boozallen.com/careers/university-talent/booz-allen-summer-games.html',
 }
-
+const NumGuess = {
+	name: 'NumberGuesser',
+	description: 'ML for digit recognition',
+	long_description: 'My first venture into machine learning. It\'s an interactive canvas that allows a user to draw a number, which is used as input for an ML model to classify which digit it is seeing.',
+	image: numguess_card,
+	link: 'https://github.com/AdamMuzz/NumberGuesser'
+}
 
 
 export default ProjectsSection;
