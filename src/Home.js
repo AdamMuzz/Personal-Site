@@ -11,7 +11,7 @@ function HomeSection() {
 
 			<h1 id='title'>Adam Muzzarelli</h1>
 			<p id='details'>Computer Scientist | Investor | Founder</p>
-			<p>*This site is currently a WIP</p>
+			{/*<p>*This site is currently a WIP</p>*/}
 
 			<div id='glyph_container'>
 				<a href='https://github.com/AdamMuzz' target='_blank' rel='noreferrer'>

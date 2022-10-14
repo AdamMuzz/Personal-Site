@@ -8,7 +8,7 @@ function NavBar() {
 			<NavBtn name='HOME' />
 			<NavBtn name='ABOUT' />
 			<NavBtn name='PROJECTS' />
-			<NavBtn name='ACTIVITIES' />
+			{/*<NavBtn name='ACTIVITIES' />*/}
 			<NavBtn name='CONTACT' />
 		</div>
 	);

@@ -24,9 +24,9 @@ function App() {
 			<ProjectsSection />
 			<div className='spacer break3' />
 
-			<div id='ACTIVITIES-BG'>
+			{/*<div id='ACTIVITIES-BG'>
 				<p>Activites</p>
-			</div>
+			</div>*/}
 
 			<ContactSection />
 		</div>
@@ -35,7 +35,6 @@ function App() {
 
 /*
 	each 'section' is its own component
-	need a way to link nav bar to put sections in view
 
 	pages:
 		home
