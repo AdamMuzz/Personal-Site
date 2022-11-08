@@ -52,10 +52,10 @@ function AboutSection() {
 					<SkillBar size={9}/>
 
 					<p className='subheader2'>C++/C</p>
-					<SkillBar size={8}/>
+					<SkillBar size={7}/>
 
 					<p className='subheader2'>Python</p>
-					<SkillBar size={6}/>
+					<SkillBar size={8}/>
 
 					<p className='subheader2'>HTML/CSS</p>
 					<SkillBar size={8}/>
