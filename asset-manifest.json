@@ -1,13 +1,14 @@
 {
   "files": {
     "main.css": "/Personal-Site/static/css/main.6eb72cb9.css",
-    "main.js": "/Personal-Site/static/js/main.48865432.js",
+    "main.js": "/Personal-Site/static/js/main.618a4000.js",
     "static/js/787.949ba037.chunk.js": "/Personal-Site/static/js/787.949ba037.chunk.js",
     "static/media/headshot.jpeg": "/Personal-Site/static/media/headshot.15b35c5437b4ef259739.jpeg",
     "static/media/card-cubesat.jpg": "/Personal-Site/static/media/card-cubesat.379a02400f4b59eb0fb9.jpg",
     "static/media/card-numguess.jpg": "/Personal-Site/static/media/card-numguess.8060007e1b4a8c1dd0b2.jpg",
     "static/media/card-site.png": "/Personal-Site/static/media/card-site.9fd0a99f3f216e9f0b4b.png",
     "static/media/card-blockio.png": "/Personal-Site/static/media/card-blockio.1db40d67313b9e78ccf1.png",
+    "static/media/card-mirror-bot.jpg": "/Personal-Site/static/media/card-mirror-bot.7b0394cc3b73e170f386.jpg",
     "static/media/card-bartr.png": "/Personal-Site/static/media/card-bartr.aec16b679aa6084400f9.png",
     "static/media/blob-lander-animated.svg": "/Personal-Site/static/media/blob-lander-animated.8775e1eb1a5c0455d5cb.svg",
     "static/media/H--A break.svg": "/Personal-Site/static/media/H--A break.9a41ddd484e99257402f.svg",
@@ -15,11 +16,11 @@
     "static/media/A--P break.svg": "/Personal-Site/static/media/A--P break.dbf0939a431786f2185a.svg",
     "index.html": "/Personal-Site/index.html",
     "main.6eb72cb9.css.map": "/Personal-Site/static/css/main.6eb72cb9.css.map",
-    "main.48865432.js.map": "/Personal-Site/static/js/main.48865432.js.map",
+    "main.618a4000.js.map": "/Personal-Site/static/js/main.618a4000.js.map",
     "787.949ba037.chunk.js.map": "/Personal-Site/static/js/787.949ba037.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6eb72cb9.css",
-    "static/js/main.48865432.js"
+    "static/js/main.618a4000.js"
   ]
 }
