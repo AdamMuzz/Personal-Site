@@ -65,7 +65,7 @@ function AboutSection() {
 				</div>
 			</div>
 
-			<a id='resume-download' href={process.env.PUBLIC_URL + '/Adam-Muzzarelli-resume.pdf'} download>
+			<a id='resume-download' href={process.env.PUBLIC_URL + '/Adam_Muzzarelli_Resume.pdf'} download>
 			<button id='resume-btn'>Download Resume</button>
 			</a>
 
