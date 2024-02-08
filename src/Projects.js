@@ -23,6 +23,7 @@ function ProjectsSection() {
 			<h1 className='section-title'>My Projects</h1>
 
 			<div id='projects-container'>
+				<Project {...SMRP} open={open} set_details={set_details} />
 				<Project {...Mirror_Bot} open={open} set_details={set_details} />
 				<Project {...NumGuess} open={open} set_details={set_details} />
 				<Project {...DoSBoss} open={open} set_details={set_details} />
