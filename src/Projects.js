@@ -6,6 +6,7 @@ import site_card from './images/card-site.png';
 import cubesat_card from './images/card-cubesat.jpg';
 import numguess_card from './images/card-numguess.jpg';
 import mirror_bot_card from './images/card-mirror-bot.jpg';
+import smrp_card from './images/card-smrp.jpg';
 
 import { useEffect, useState } from 'react';
 
@@ -99,21 +100,21 @@ function ExpandedProject(props) {
 const Bartr = {
 	name: 'Bartr',
 	description: 'trading app startup',
-	long_description: 'A hyper-localized trading app emphasized on college life and creating a sustainable way for students to exchange goods and services.',
+	long_description: 'A hyper-localized trading app emphasized on college life and creating a sustainable way for students to exchange goods and services. Used Expo and Flutter.',
 	image: bartr_card,
 	link: 'https://www.bartr.app/',
 }
 const BlockIO = {
 	name: 'Block.IO',
 	description: 'online game',
-	long_description: 'A simple online game I developed to learn websockets. Players fight to the death in a 2D polygonal battle royal shooter.',
+	long_description: 'A simple online game I developed to learn websockets. Players fight to the death in a 2D polygonal battle royal shooter. Built with React.js and Socket.io.',
 	image: blockio_card,
 	link: 'https://github.com/AdamMuzz/online-game',
 }
 const SelfSite = {
 	name: 'Personal Website',
 	description: 'web development',
-	long_description: 'The site you are currently viewing; a collection of my experiences and interests tied together as a frontend project.',
+	long_description: 'The site you are currently viewing; a collection of my experiences and interests tied together as a frontend project. Built with React.js.',
 	image: site_card,
 	link: 'https://github.com/AdamMuzz/Personal-Site'
 }
@@ -127,16 +128,23 @@ const DoSBoss = {
 const NumGuess = {
 	name: 'NumberGuesser',
 	description: 'ML for digit recognition',
-	long_description: 'My first venture into machine learning. It\'s an interactive canvas that allows a user to draw a number, which is used as input for an ML model to classify which digit it is seeing.',
+	long_description: 'My first venture into machine learning. It\'s an interactive canvas that allows a user to draw a number, which is used as input for an ML model to classify which digit it is seeing. Built with TensorFlow.js',
 	image: numguess_card,
 	link: 'https://github.com/AdamMuzz/NumberGuesser'
 }
 const Mirror_Bot = {
 	name: 'Mirror Bot',
 	description: 'crpyto trading bot',
-	long_description: 'Bot that tracks trades performed by specific crypto wallets and mirrors investments. Useful for small cap momentum trading. Implemented with Web3 and python.',
+	long_description: 'Bot that tracks trades performed by specific crypto wallets and mirrors investments. Useful for small cap momentum trading. Implemented with Web3 and Python.',
 	image: mirror_bot_card,
 	link: 'https://github.com/AdamMuzz/mirror_trade_bot'
+}
+const SMRP = {
+	name: 'SMRP',
+	description: 'arbitrage trading algorithm',
+	long_description: 'Algorithm that constructs sparse mean reverting portfolios to be used in first moment arbitrage trading. Implemented in Python',
+	image: smrp_card,
+	link: 'https://arxiv.org/abs/1509.05954'
 }
 
 
