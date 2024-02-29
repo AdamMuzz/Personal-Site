@@ -6,6 +6,7 @@ import site_card from './images/card-site.png';
 import cubesat_card from './images/card-cubesat.jpg';
 import numguess_card from './images/card-numguess.jpg';
 import mirror_bot_card from './images/card-mirror-bot.jpg';
+import minecraft_card from './images/card-minecraft.jpg';
 import smrp_card from './images/card-smrp.jpg';
 
 import { useEffect, useState } from 'react';
@@ -24,6 +25,7 @@ function ProjectsSection() {
 
 			<div id='projects-container'>
 				<Project {...SMRP} open={open} set_details={set_details} />
+				<Project {...Minecraft} open={open} set_details={set_details} />
 				<Project {...Mirror_Bot} open={open} set_details={set_details} />
 				<Project {...NumGuess} open={open} set_details={set_details} />
 				<Project {...DoSBoss} open={open} set_details={set_details} />
@@ -129,7 +131,7 @@ const DoSBoss = {
 const NumGuess = {
 	name: 'NumberGuesser',
 	description: 'ML for digit recognition',
-	long_description: 'My first venture into machine learning. It\'s an interactive canvas that allows a user to draw a number, which is used as input for an ML model to classify which digit it is seeing. Built with TensorFlow.js',
+	long_description: 'An interactive canvas where a user can draw a number, which is used as input for a classifier to predict which digit it is seeing. Built with TensorFlow.js',
 	image: numguess_card,
 	link: 'https://github.com/AdamMuzz/NumberGuesser'
 }
@@ -140,10 +142,17 @@ const Mirror_Bot = {
 	image: mirror_bot_card,
 	link: 'https://github.com/AdamMuzz/mirror_trade_bot'
 }
+const Minecraft = {
+	name: 'Minecraft',
+	description: '3D graphics',
+	long_description: 'My final project for an intro 3D graphics class. A simplified clone of Mojang Studio\'s Minecraft. Built with Javascript and WebGL.',
+	image: minecraft_card,
+	link: 'https://adammuzz.github.io/minecraft/'
+}
 const SMRP = {
 	name: 'SMRP',
 	description: 'arbitrage trading algorithm',
-	long_description: 'Algorithm that constructs sparse mean reverting portfolios to be used in first moment arbitrage trading. Implemented in Python',
+	long_description: 'Algorithm that constructs sparse mean reverting portfolios to be used in first moment arbitrage trading. Implemented in Python.',
 	image: smrp_card,
 	link: 'https://arxiv.org/abs/1509.05954'
 }
